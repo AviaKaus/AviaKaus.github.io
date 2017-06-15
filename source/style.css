@@ -28,13 +28,25 @@ body {
 	height: 250px;
 	
 }
-#menu {width: 900}
+.menu-item{
+	border: 2px solid #66CDAA;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+.menu-item .submenu{
+	height: 40px;
+	width: 120px;
+	background: green;
+	position: absolute;
+	cursor: pointer;
+}
 
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
 	height:1250px;
-	background:url(../images/1.jpg)center repeat;
+	background:url(../images/3.png)center repeat;
 }
 
 
@@ -48,3 +60,5 @@ body {
 	background: #BFF08E;
 	position: relative;
 }
+
+	
